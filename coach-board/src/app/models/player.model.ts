@@ -2,6 +2,7 @@ export interface Player {
   $key?: string;
   name: string;
   lastName: string;
+  pictureUrl?: string;
   position: Positions;
   weight: number;
   height: number;
