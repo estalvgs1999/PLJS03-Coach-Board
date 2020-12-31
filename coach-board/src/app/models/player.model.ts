@@ -12,11 +12,11 @@ export interface Player {
 }
 
 export enum Positions {
-  F = "Forward",
-  G = "Guard",
-  C = "Center",
-  PG = "Point Guard",
-  SG = "Shooting Guard",
-  SF = "Small Forward",
-  PF = "Power Forward"
+  F = 'Forward',
+  G = 'Guard',
+  C = 'Center',
+  PG = 'Point Guard',
+  SG = 'Shooting Guard',
+  SF = 'Small Forward',
+  PF = 'Power Forward'
 }
