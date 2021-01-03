@@ -5,7 +5,4 @@ export interface Team {
   name: string;
   logoUrl?: string;
   players: Player[];
-
-  addPlayer: (player: Player) => void;
-  removePlayer: (player: Player) => boolean;
 }
